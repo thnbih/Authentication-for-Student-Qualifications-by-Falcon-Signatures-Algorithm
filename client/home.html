@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .wrapper {
+            text-align: center;
+        }
+    </style>
+    <title>Home</title>
+</head>
+<body>
+
+    <div>
+        <label>Choose an option:</label>
+        <button onclick="selectOption('verify')">Verify</button>
+        <button onclick="selectOption('signing')">Signing</button>
+        <button onclick="selectOption('get-quals')">Get Qualifications</button>
+    </div>
+
+    <div id="content"></div>
+    <script src="main.js"></script>
+
+</body>
+</html>
